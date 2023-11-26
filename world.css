@@ -1,1 +1,107 @@
-/* Add your own styles */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root
+{
+
+  --black: #1a202c;
+  --lightGrey: #80828b;
+  --grey: rgba(224, 207, 203, 0.482);
+  --lighterBlue: #4a6cab;
+  --darkBlue: #184aa7;
+  
+}
+
+body 
+{
+
+    margin: 0;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+
+}
+
+main
+{
+
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+
+}
+
+
+/* Section: Header */
+
+header 
+{
+
+  background-color: var(--darkBlue);
+  color: white;
+  padding: 50px;
+  text-align: center; 
+
+}
+
+header h1
+{
+
+  text-transform: capitalize;
+  margin: 0; 
+  font-size: 50px;
+
+}
+
+label
+{
+
+    display: none;
+
+}
+
+#controls 
+{
+
+    text-align: center; 
+
+}
+
+#country
+{
+
+    background-color: white;
+    color: rgba(6, 5, 5, 0.826);
+    height: 50px;
+    width: 850px;
+    border: 1px solid #6b728095;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;  
+    
+}
+
+#lookup
+{
+
+    background-color: var(--darkBlue);
+    margin-top: 15px;
+
+}
+
+.btn{
+
+    background-color: var(--lighterRed);
+    color: white;
+    height: 50px;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;  
+
+}
+
+
+
