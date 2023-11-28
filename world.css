@@ -113,7 +113,8 @@ label
 
 }
 
-.btn{
+.btn
+{
 
     color: white;
     height: 50px;
@@ -153,7 +154,6 @@ label
 
 }
 
-
 .result-table td 
 {
 
@@ -176,4 +176,3 @@ label
     background-color: var(--lightGrey);
 
 }
-
